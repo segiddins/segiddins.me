@@ -4,41 +4,6 @@ set :relative_links, true
 # Support for browsing from the build folder.
 set :strip_index_file,  false
 
-
-###
-# Compass
-###
-
-# Change Compass configuration
-# compass_config do |config|
-#   config.output_style = :compact
-# end
-
-###
-# Page options, layouts, aliases and proxies
-###
-
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
-
-# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
-#  :which_fake_page => "Rendering a fake page with a local variable" }
-
-###
-# Helpers
-###
-
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 activate :rouge_syntax
@@ -49,17 +14,33 @@ configure :development do
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def shared_partial(*sources)
+    sources.inject([]) do |combined, source|
+      combined << partial("../shared/partials/#{source}")
+    end.join
+  end
+
+  def pages
+    require 'yaml'
+    Pathname.new("shared/pages.yml").open { |file| YAML.load(file) }
+  end
+end
 
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'scripts'
 
 set :images_dir, 'images'
+
+# Allow shared assets folder to not be in source, thereby not dragging in every asset
+after_configuration do
+  sprockets.append_path "../shared/images"
+  sprockets.append_path "../shared/scripts"
+  # sprockets.append_path "../shared/fonts"
+  sprockets.append_path "../shared/partials"
+  sprockets.append_path "../shared/stylesheets"
+end
 
 # Build-specific configuration
 configure :build do
@@ -70,9 +51,6 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
-
-  # Enable cache buster
-  # activate :asset_hash
 
   # Use relative URLs
   activate :relative_assets

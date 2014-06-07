@@ -15,8 +15,9 @@ begin
 
     desc 'Runs the web server locally and watches for changes'
     task :run do
-      sh "middleman server --port 4567"
+      sh "bundle exec middleman server --port 4567"
     end
 rescue Exception => e
     puts 'You must run `rake bootstrap` first!'
+    exit
 end

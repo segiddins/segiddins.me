@@ -25,6 +25,11 @@ helpers do
     require 'yaml'
     Pathname.new("shared/pages.yml").open { |file| YAML.load(file) }
   end
+
+  def me
+    require 'yaml'
+    Pathname.new("shared/me.yml").open { |file| YAML.load(file) }
+  end
 end
 
 set :css_dir, 'stylesheets'

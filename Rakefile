@@ -6,14 +6,17 @@ task :bootstrap do
   puts "Installing gems"
   `bundle install`
 end
+begin
+    require 'middleman-gh-pages'
 
-require 'middleman-gh-pages'
+    task :deploy do
+      Rake::Task["publish"].invoke
+    end
 
-task :deploy do
-  Rake::Task["publish"].invoke
-end
-
-desc 'Runs the web server locally and watches for changes'
-task :run do
-  sh "middleman server --port 4567"
+    desc 'Runs the web server locally and watches for changes'
+    task :run do
+      sh "middleman server --port 4567"
+    end
+rescue Exception => e
+    puts 'You must run `rake bootstrap` first!'
 end

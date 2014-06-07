@@ -7,8 +7,9 @@ task :bootstrap do
   `bundle install`
 end
 begin
+    require 'middleman-gh-pages'
+
     task :deploy do
-      require 'middleman-gh-pages'
       Rake::Task["publish"].invoke
     end
 
@@ -18,5 +19,4 @@ begin
     end
 rescue Exception => e
     puts 'You must run `rake bootstrap` first!'
-    exit
 end

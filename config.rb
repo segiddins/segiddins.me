@@ -13,6 +13,8 @@ configure :development do
   activate :livereload
 end
 
+page "/resume.html", layout: :page
+
 # Methods defined in the helpers block are available in templates
 helpers do
   def shared_partial(*sources)
@@ -63,3 +65,5 @@ end
 
 set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true, :with_toc_data => true
 set :markdown_engine, :redcarpet
+
+activate :directory_indexes

@@ -3,6 +3,4 @@ layout: page
 title: Me
 ---
 
-I’m __Samuel E. Giddins__. Right now, I’m working as a developer in New York City and a student at the wonderful University of Chicago. I’m working on a few projects at the moment, some of which I’m happy to share, and other that have to remain secret for a little while longer.
-
-Over the past year, I’ve decided to pursue developing, and it quickly evolved into a passion. Nothing makes me happier than melding my love of interesting challenges with building awesome things that people get to interact with, making their lives better, easier, and more fun.
+I’m __Samuel E. Giddins__. Right now, I’m working at [Realm](http://realm.io) as an iOS developer, building tools such as [CocoaPods](http:/cocoapods.org), [jazzy](https://github.com/Realm/jazzy), and [RestKit](https://github.com/RestKit/RestKit). I'm current on a year-long leave of absence from the University of Chicago, where I'm triple-majoring in Mathematics, Economics, and Computer Science. I live in San Fransisco, but I'm a New Yorker at heart.

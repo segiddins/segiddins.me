@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/segiddins
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://segiddins.me
+  * I am segiddins (https://keybase.io/segiddins) on keybase.
+  * I have a public key with fingerprint 183E 3C10 9DCA CFE9 7CF3  7D0B E2FF 73E6 02F9 E5DE
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.3"
+        },
+        "key": {
+            "fingerprint": "183e3c109dcacfe97cf37d0be2ff73e602f9e5de",
+            "host": "keybase.io",
+            "key_id": "E2FF73E602F9E5DE",
+            "uid": "4ec5f97ee33a1503154e1b7422ff4a00",
+            "username": "segiddins"
+        },
+        "merkle_root": {
+            "ctime": 1423371775,
+            "hash": "4681d29d4e97af766f56988cfc2e7720e9a01fd4c988f841bc256b56f55cae70c06bcd35928d9019374230b330d755b94af4d0716e06fb096d7f52998f145285",
+            "seqno": 150662
+        },
+        "service": {
+            "hostname": "segiddins.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1423371835,
+    "expire_in": 157680000,
+    "prev": "20953646422279e69866b2ff1f824dc5fbb6b2df553c60130eb65d8e9b5b6616",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owFdUntQVFUc3l15OwiO6Bgh6S3KbF3Ofe9dKATdDZVEmZAckfU+zl2usHvXuwvJ
+0GrREGZZlFGT+GoaMBBklCw1HlOhNlKZgqQ1PRTIaBRSRiVGoHMZmrLz1znn953v
+933f71RGTjOYjFcnfL+Z/ur/2dg5IBie7RlMKsUEVSrBbKWYWKhAj1/feXg3xGxY
+ASwReB+0KOp8jypByybf/CmMGSuGmk9RPQgFLKyFxAJmHa4/lhWPC2peTdG5MNxK
+QlLEASeJvChDjhVlkpWAAAlZZknIAELmIC1BRJmv+vz3dcUmOZ2KhG7thMPBknaE
+d3B2epkd1YomCxQUaZljISRJHqcBidMUxAWWIlADigdAB/qgNmXJB12KJCkeny7Y
+DbWCQujUVHXStehXdAxOESTJ4ixLI0m8L1/vwVhxieAkCunnZZZhZJrhrFZRFgnI
+sgSAHA9wWaJEdClbKVwQCZoRaASjRR6yQASMIEokzRFWiQM4RyJ5JBBIEkgsTQsc
+xcuUBFicgYCRBcAxEivTBMdZZZyiCSuNPPjgZo+KxNGAYYiAftaKFRHquvXc/m/P
+4tYT9WqqXxXVQlTJ9/u9Nt20v8SrI5+HwmHnFIlTUDzokeu/Y8UR9P5ArCQKBG7x
+Khp0KjqCZhkrQEvvA4sRJwE4mmQoBmVPsBxEETGMgMaAy1aCktCYBAGdJZQKKTIA
+JwEUGFqyQk6gBYbBmX9tEkgn79INKS4P7y/SIBZ41RQXZDCaDCHBJv3fGiLCo//5
+zMPxUeOPJv5xNs+dsXXL+6P9X6xYm3l1nyHo1KXXdzm5JYNvM+11ycaZu360NDsb
+e0+33rhnsBuqF2oXz9TWhd+Oraq0LcnyHCucaUqmUy5z97rModm9RmC7udCQmht6
+JGTVnZhvs+IHznf7axrdDZGhgZUndpZc4QR8/NOKmZuar0SDOq3ozbgFGf7jtWO5
+Ya2r8tOayvvcocvnBtLB1sqGqO+AejCs/vHXjlXMxcuqG+asNlcvfWhkTEpvSZsY
+vLy89eny0V+Ep66Vxu1/boP5xMYdidq0ltQTM67NXrf9SHtNe3pOX+G2tpHeGV8H
+R741PNuZY29OxDrfY4EtIWv/UErf9gTKNWT89cG7SXtnNW3v2PhRUf/ZhLjsJxY5
+Fl3P3jHR0Z/G5YU0ii+2ecreOFz7Q5v4AHeaCzuXOnomtHvfqbaFn9dOf0W40Bl7
+JjeQsuKW5dayozE7mbK4Z5o6bsTvDjYEDw+NvFx157EJPu322UNdB/CT+28v85bF
+mr9cP6d3+K47e60xpienYduT9av9CyJnvbRj/cWl3x+sV+u8juR5LYv7IlbuPnS0
+rvWz6OnC2Li55/yK7p/MOR+nZ6SWH9i7LuibyIyHo07mnRu/lJOUvDNic+Y7TfD6
+llb53bzf3bYPbha8ULX4EW/m8nk13cdrL6wZKvhzwO3o24BFVWStOdm1Z/3oh02f
+hO/5ytz+Nw==
+=JHnU
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/segiddins
+
+==================================================================

@@ -3,14 +3,34 @@ layout: page
 title: Hire Samuel Giddins
 ---
 
-I'm Samuel Giddins. You probably know me as `segiddins` from the internet, or projects such as Realm, CocoaPods, Bundler, or RubyGems.
+I'm Samuel Giddins. You probably know me as `segiddins` from the internet, or or
+from open-source projects like Realm, CocoaPods, Bundler, and RubyGems. For the
+past four years, I've been a core developer on some of the most used package
+management systems in the world, helping to maintain the projects and
+infrastructure keeping the Ruby and Cocoa worlds humming.
 
-I'm graduating the University of Chicago this December, and that means I'm looking for a job. If you've ever wanted to hire a segiddins, this is your chance!
+This December I'll be finishing my Mathematics and Economics degree at the
+University of Chicago, which is good news for all of you reading this since I'll
+be looking for a full-time position. If you've ever wanted to hire a Ruby,
+Swift, or iOS expert or wanted to support my continuing work on those
+ecosystems, this is your chance!
 
-I'm open to doing almost anything -- I have experience working on all types of software -- given a healthy work environment, a diverse and welcoming team, and the chance to be engaged with my work. In the past, I've focused on building developer tools, frameworks, databases, package managers, new web formats, and compilers.
+My background is mostly developer tooling, packaging, compiler design, and web
+technologies, but I'm always interested in new challenges and working on new
+types of problems and software. Some priorities I am looking for in a team
+include a healthy work-life balance, a diverse and welcoming culture, and a
+drive to build products that tackle real-world issues.
 
-I'm willing to relocate, but positions that are open to (at least occasional) remote work would be ideal for me. I love to travel, and particularly to speak at conferences, and that won't stop after graduation.
+I'm currently located in Chicago but open to relocation elsewhere or
+remote/distributed teams. As a frequent conference speaker, I will be on the
+road occasionally, so some remote time will be important.
 
-I also love working on open source software in my free time, and that too will not stop in the foreseeable future.
+I am a passionate open-source contributor and it is important to me to be able
+to continue to guide the projects I've been involved with for the past several
+years. I would love it if this was a part of my job description, but at a
+minimum I'll need a team and organization that is understanding of the demands
+of open-source.
 
-If none of that is a deal-breaker for you, you think you're working on something interesting, and there's a good chance I'd fit in well on your team, please get in touch by emailing me, segiddins@segiddins.me.
+If you think you've got the perfect opportunity for me I look forward to hearing
+from you! You can reach me at
+[segiddins@segiddins.me](mailto:segiddins@segiddins.me?subject=Come%20work%20with%20me%20at%20$NAME).

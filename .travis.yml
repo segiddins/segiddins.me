@@ -13,4 +13,4 @@ script:
 - bundle exec rake deploy
 env:
   global:
-    secure: p5+VBsNFXJFwHY/DvohaO60oaCZlbwcTTKalnGu3e3Gj/W8UbYCzF0zUPBrgW9YXfKP0/XHRLjqlK5Y2aVKYIh60VzyjTnm6VHg5XlAnTyEMSneOh6kjzK78KVANWLNJMgKXDMzZs5BcyTl5/eRXDi7Koy+SGlEY8AHikSRgt5g=
+    secure: JTo86WxqU//WnN8h/p7mFuuLQQdCEO55EIHp07j9zJE46IYCdeCAglIjdjfjn64NGGLXNlHYFL/EIYVevQL+HkPfe/v9X9I1z/UKuqH2yRW1ajryLdLSffrBh+veN/0IlkzmzzWcKq8w91KlzYsHVnFqjgpbvSCwKC+2MoLLu6k=

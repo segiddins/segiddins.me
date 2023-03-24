@@ -3,8 +3,8 @@ layout: page
 title: Me
 ---
 
-I’m __Samuel Giddins__.
+I’m **Samuel Giddins**.
 
-Currently, I work at Square on the Mobile Developer Experience team, improving iOS developer productivity every way I can.
-In my spare time, I'm on the [CocoaPods](https://cocoapods.org) core team.
-I used to help maintain [bundler](https://bundler.io), [rubygems](https://rubygems.org), [jazzy](https://github.com/Realm/jazzy), and [RestKit](https://github.com/RestKit/RestKit).
+Currently, I'm the principal of Nerdsniped LLC, a software consultancy that specializes in doing whatever it is I'm good at.
+Right now, that means maintaining [RubyGems.org](https://rubygems.org/).
+Previously, I worked as a Staff Engineer at Abnormal Security, Cash App, and Square.

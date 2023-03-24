@@ -11,6 +11,7 @@ RUN \
   linux-headers \
   zlib-dev \
   git \
+  nodejs \
   tzdata
 
 RUN gem update --system "3.3.26"

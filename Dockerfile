@@ -37,4 +37,5 @@ RUN --mount=type=cache,id=bld-gem-cache,sharing=locked,target=/srv/vendor \
 COPY . /site/
 
 RUN rake bootstrap
-RUN bundle exec rake deploy
+ENTRYPOINT ["bundle", "exec"]
+CMD ["rake", "deploy"]

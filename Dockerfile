@@ -34,6 +34,8 @@ RUN --mount=type=cache,id=bld-gem-cache,sharing=locked,target=/srv/vendor \
   cp -ar /srv/vendor . && \
   rm -fr /site/vendor/ruby/*/cache
 
+RUN  git config --global user.email "segiddins@segiddins.me" && \
+  git config --global user.name "Samuel Giddins"
 
 COPY . /site/
 

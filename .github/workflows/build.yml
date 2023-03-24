@@ -18,6 +18,8 @@ jobs:
           bundler-cache: true
       - name: Bootstrap
         run: bundle exec rake bootstrap
+      - name: Set remote URL
+        run: git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY"
       - name: Build
         if: github.event_name == 'pull_request'
         run: bundle exec rake build
